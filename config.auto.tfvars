@@ -15,7 +15,7 @@ clusters = {
       # Set the base_domain used to generate the FQDN of the cluster
       # [cluster_name].[provider_name].[base_domain]
       # e.g. kbst-apps-europe-west3.gcp.infra.example.com
-      base_domain = "infra.moov-staging.io"
+      base_domain = "infra.staging.io"
 
       # Initial desired K8s version, will be upgraded automatically
       cluster_min_master_version = "1.18"
