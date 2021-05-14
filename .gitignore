@@ -5,6 +5,9 @@
 *.tfstate
 *.tfstate.*
 
+# .terraform lock file
+.terraform.lock.hcl
+
 # .user home directory
 .user/
 
